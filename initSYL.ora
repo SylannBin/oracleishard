@@ -1,0 +1,18 @@
+COMPATIBLE                  = '11.2.0'
+DB_NAME                     = 'SYL'
+DB_DOMAIN                   = ''
+MEMORY_TARGET               = 1G
+DB_BLOCK_SIZE               = 8192
+PROCESSES                   = 150
+OPEN_CURSORS                = 300
+DB_RECOVERY_FILE_DEST_SIZE  = 2G
+AUDIT_TRAIL                 = 'db'
+DISPATCHERS                 = '(PROTOCOL=TCP) (SERVICE=ORCLXDB)'
+REMOTE_LOGIN_PASSWORDFILE   = 'EXCLUSIVE'
+UNDO_TABLESPACE             = 'UNDOTBS'
+DIAGNOSTIC_DEST             = '%ORACLE_INSTALL%\app'
+AUDIT_FILE_DEST             = '%ORACLE_INSTALL%\app\oracle\admin\SYL\adump'
+DB_RECOVERY_FILE_DEST       = '%ORACLE_INSTALL%\app\oracle\fast_recovery_area'
+# You may want to ensure that control files are created on separate physical
+# devices
+CONTROL_FILES               = ('%ORACLE_DATA%\SYL\control.dbf')

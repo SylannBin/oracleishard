@@ -1,0 +1,24 @@
+
+Resultat:
+Droits insuffisants: Lecteur. Admin necessaire                                  
+
+Entrer un critere pour chercher un client par nom ou prenom
+Critere (optionnel): 
+
+Resultat:
+[4] De Vengerberg Yennefer                                                      
+[5] Merigold Triss                                                              
+[6] romain vincent                                                              
+
+Entrer nom et mdp. ex: Vincent zer123456.
+Nom: vincent
+Mot de passe: zer123456
+
+Resultat:
+Connection reussie                                                              
+
+
+Resultat:
+Vincent Romain (Admin)                                                          
+Debe Mariah (Lecteur)                                                           
+
